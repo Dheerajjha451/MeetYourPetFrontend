@@ -27,7 +27,7 @@ function UploadImage() {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      const response = await fetch("https://mypbackend.onrender.com/predict", {
+      const response = await fetch("https://97b8-43-247-41-48.ngrok-free.app/predict", {
         method: "POST",
         body: formData,
       });
